@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F09B88D1E60FEA500C5D7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B88C1E60FEA500C5D7A0 /* AppDelegate.swift */; };
+		2F09B88F1E60FEA500C5D7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B88E1E60FEA500C5D7A0 /* ViewController.swift */; };
+		2F09B8921E60FEA500C5D7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F09B8901E60FEA500C5D7A0 /* Main.storyboard */; };
+		2F09B8941E60FEA500C5D7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F09B8931E60FEA500C5D7A0 /* Assets.xcassets */; };
+		2F09B8971E60FEA500C5D7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F09B8951E60FEA500C5D7A0 /* LaunchScreen.storyboard */; };
+		2F09B8A21E60FEA500C5D7A0 /* melloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B8A11E60FEA500C5D7A0 /* melloTests.swift */; };
+		2F09B8AD1E60FEA500C5D7A0 /* melloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B8AC1E60FEA500C5D7A0 /* melloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F09B89E1E60FEA500C5D7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F09B8811E60FEA400C5D7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F09B8881E60FEA400C5D7A0;
+			remoteInfo = mello;
+		};
+		2F09B8A91E60FEA500C5D7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F09B8811E60FEA400C5D7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F09B8881E60FEA400C5D7A0;
+			remoteInfo = mello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F09B8891E60FEA500C5D7A0 /* mello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09B88C1E60FEA500C5D7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F09B88E1E60FEA500C5D7A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F09B8911E60FEA500C5D7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F09B8931E60FEA500C5D7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F09B8961E60FEA500C5D7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F09B8981E60FEA500C5D7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F09B89D1E60FEA500C5D7A0 /* melloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = melloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09B8A11E60FEA500C5D7A0 /* melloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melloTests.swift; sourceTree = "<group>"; };
+		2F09B8A31E60FEA500C5D7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F09B8A81E60FEA500C5D7A0 /* melloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = melloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09B8AC1E60FEA500C5D7A0 /* melloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melloUITests.swift; sourceTree = "<group>"; };
+		2F09B8AE1E60FEA500C5D7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F09B8861E60FEA400C5D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B89A1E60FEA500C5D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B8A51E60FEA500C5D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F09B8801E60FEA400C5D7A0 = {
+			isa = PBXGroup;
+			children = (
+				2F09B88B1E60FEA500C5D7A0 /* mello */,
+				2F09B8A01E60FEA500C5D7A0 /* melloTests */,
+				2F09B8AB1E60FEA500C5D7A0 /* melloUITests */,
+				2F09B88A1E60FEA500C5D7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F09B88A1E60FEA500C5D7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F09B8891E60FEA500C5D7A0 /* mello.app */,
+				2F09B89D1E60FEA500C5D7A0 /* melloTests.xctest */,
+				2F09B8A81E60FEA500C5D7A0 /* melloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F09B88B1E60FEA500C5D7A0 /* mello */ = {
+			isa = PBXGroup;
+			children = (
+				2F09B88C1E60FEA500C5D7A0 /* AppDelegate.swift */,
+				2F09B88E1E60FEA500C5D7A0 /* ViewController.swift */,
+				2F09B8901E60FEA500C5D7A0 /* Main.storyboard */,
+				2F09B8931E60FEA500C5D7A0 /* Assets.xcassets */,
+				2F09B8951E60FEA500C5D7A0 /* LaunchScreen.storyboard */,
+				2F09B8981E60FEA500C5D7A0 /* Info.plist */,
+			);
+			path = mello;
+			sourceTree = "<group>";
+		};
+		2F09B8A01E60FEA500C5D7A0 /* melloTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F09B8A11E60FEA500C5D7A0 /* melloTests.swift */,
+				2F09B8A31E60FEA500C5D7A0 /* Info.plist */,
+			);
+			path = melloTests;
+			sourceTree = "<group>";
+		};
+		2F09B8AB1E60FEA500C5D7A0 /* melloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F09B8AC1E60FEA500C5D7A0 /* melloUITests.swift */,
+				2F09B8AE1E60FEA500C5D7A0 /* Info.plist */,
+			);
+			path = melloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F09B8881E60FEA400C5D7A0 /* mello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F09B8B11E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "mello" */;
+			buildPhases = (
+				2F09B8851E60FEA400C5D7A0 /* Sources */,
+				2F09B8861E60FEA400C5D7A0 /* Frameworks */,
+				2F09B8871E60FEA400C5D7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mello;
+			productName = mello;
+			productReference = 2F09B8891E60FEA500C5D7A0 /* mello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F09B89C1E60FEA500C5D7A0 /* melloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F09B8B41E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "melloTests" */;
+			buildPhases = (
+				2F09B8991E60FEA500C5D7A0 /* Sources */,
+				2F09B89A1E60FEA500C5D7A0 /* Frameworks */,
+				2F09B89B1E60FEA500C5D7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F09B89F1E60FEA500C5D7A0 /* PBXTargetDependency */,
+			);
+			name = melloTests;
+			productName = melloTests;
+			productReference = 2F09B89D1E60FEA500C5D7A0 /* melloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F09B8A71E60FEA500C5D7A0 /* melloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F09B8B71E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "melloUITests" */;
+			buildPhases = (
+				2F09B8A41E60FEA500C5D7A0 /* Sources */,
+				2F09B8A51E60FEA500C5D7A0 /* Frameworks */,
+				2F09B8A61E60FEA500C5D7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F09B8AA1E60FEA500C5D7A0 /* PBXTargetDependency */,
+			);
+			name = melloUITests;
+			productName = melloUITests;
+			productReference = 2F09B8A81E60FEA500C5D7A0 /* melloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F09B8811E60FEA400C5D7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Blake Fischer";
+				TargetAttributes = {
+					2F09B8881E60FEA400C5D7A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2F09B89C1E60FEA500C5D7A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F09B8881E60FEA400C5D7A0;
+					};
+					2F09B8A71E60FEA500C5D7A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F09B8881E60FEA400C5D7A0;
+					};
+				};
+			};
+			buildConfigurationList = 2F09B8841E60FEA400C5D7A0 /* Build configuration list for PBXProject "mello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F09B8801E60FEA400C5D7A0;
+			productRefGroup = 2F09B88A1E60FEA500C5D7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F09B8881E60FEA400C5D7A0 /* mello */,
+				2F09B89C1E60FEA500C5D7A0 /* melloTests */,
+				2F09B8A71E60FEA500C5D7A0 /* melloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F09B8871E60FEA400C5D7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09B8971E60FEA500C5D7A0 /* LaunchScreen.storyboard in Resources */,
+				2F09B8941E60FEA500C5D7A0 /* Assets.xcassets in Resources */,
+				2F09B8921E60FEA500C5D7A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B89B1E60FEA500C5D7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B8A61E60FEA500C5D7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F09B8851E60FEA400C5D7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09B88F1E60FEA500C5D7A0 /* ViewController.swift in Sources */,
+				2F09B88D1E60FEA500C5D7A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B8991E60FEA500C5D7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09B8A21E60FEA500C5D7A0 /* melloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F09B8A41E60FEA500C5D7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F09B8AD1E60FEA500C5D7A0 /* melloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F09B89F1E60FEA500C5D7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F09B8881E60FEA400C5D7A0 /* mello */;
+			targetProxy = 2F09B89E1E60FEA500C5D7A0 /* PBXContainerItemProxy */;
+		};
+		2F09B8AA1E60FEA500C5D7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F09B8881E60FEA400C5D7A0 /* mello */;
+			targetProxy = 2F09B8A91E60FEA500C5D7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F09B8901E60FEA500C5D7A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F09B8911E60FEA500C5D7A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F09B8951E60FEA500C5D7A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F09B8961E60FEA500C5D7A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F09B8AF1E60FEA500C5D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F09B8B01E60FEA500C5D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F09B8B21E60FEA500C5D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.mello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F09B8B31E60FEA500C5D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.mello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F09B8B51E60FEA500C5D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = melloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.melloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mello.app/mello";
+			};
+			name = Debug;
+		};
+		2F09B8B61E60FEA500C5D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = melloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.melloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mello.app/mello";
+			};
+			name = Release;
+		};
+		2F09B8B81E60FEA500C5D7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = melloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.melloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mello;
+			};
+			name = Debug;
+		};
+		2F09B8B91E60FEA500C5D7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = melloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakefischer.melloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F09B8841E60FEA400C5D7A0 /* Build configuration list for PBXProject "mello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09B8AF1E60FEA500C5D7A0 /* Debug */,
+				2F09B8B01E60FEA500C5D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F09B8B11E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "mello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09B8B21E60FEA500C5D7A0 /* Debug */,
+				2F09B8B31E60FEA500C5D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F09B8B41E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "melloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09B8B51E60FEA500C5D7A0 /* Debug */,
+				2F09B8B61E60FEA500C5D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F09B8B71E60FEA500C5D7A0 /* Build configuration list for PBXNativeTarget "melloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F09B8B81E60FEA500C5D7A0 /* Debug */,
+				2F09B8B91E60FEA500C5D7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F09B8811E60FEA400C5D7A0 /* Project object */;
+}
